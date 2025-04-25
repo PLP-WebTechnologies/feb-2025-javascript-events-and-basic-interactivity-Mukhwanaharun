@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  button {
+    margin: 10px;
+  }
+  
+  #hoverBox {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: lightgray;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .gallery {
+    margin: 20px 0;
+  }
+  
+  .thumbnails img {
+    margin: 5px;
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  small {
+    color: red;
+  }

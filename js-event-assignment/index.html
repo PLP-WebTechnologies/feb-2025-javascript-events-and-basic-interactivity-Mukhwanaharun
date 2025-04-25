@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Event Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>JavaScript Event Handling & Interactive Elements</h1>
+
+  <!-- Buttons -->
+  <button id="changeColorBtn">Change Background</button>
+  <button id="doubleClickBtn">Double Click Me!</button>
+
+  <!-- Image Gallery -->
+  <div class="gallery">
+    <img id="mainImage" src="https://via.placeholder.com/300" alt="Gallery" />
+    <div class="thumbnails">
+      <img src="https://via.placeholder.com/100" onclick="changeImage(this)" />
+      <img src="https://via.placeholder.com/101" onclick="changeImage(this)" />
+      <img src="https://via.placeholder.com/102" onclick="changeImage(this)" />
+    </div>
+  </div>
+
+  <!-- Form -->
+  <form id="signupForm">
+    <label for="email">Email:</label>
+    <input type="email" id="email" required />
+    <small id="emailError"></small><br/>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" required />
+    <small id="passwordError"></small><br/>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <!-- Hover box -->
+  <div id="hoverBox">Hover over me!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
