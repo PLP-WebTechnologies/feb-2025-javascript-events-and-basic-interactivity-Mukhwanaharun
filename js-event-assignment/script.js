@@ -21,7 +21,7 @@ hoverBox.addEventListener("mouseout", () => {
 
 // Keypress detection
 document.addEventListener("keypress", (event) => {
-  console.log(Key pressed: ${event.key});
+  console.log(Key, pressed, $,{event,key});
 });
 
 // Image gallery
